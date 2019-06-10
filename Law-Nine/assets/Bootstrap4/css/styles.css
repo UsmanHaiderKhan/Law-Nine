@@ -64,26 +64,29 @@ html, body {
 }
 
 .nav-bg-color {
-    background-color: #141b2e;
+    background-color: #ffffff;
 }
 
+
 .navbar {
-    padding: 32px 0 2px 0;
+    padding: 0px 0 0px 0;
 }
 
 .active .nav-link {
     position: relative;
     font-size: 20px;
-    color: #fe533d !important;
+    color: #3a9e41 !important;
     font-weight: 500;
-    text-transform: capitalize !important;
+    text-transform: uppercase !important;
     font-family: 'Poppins', sans-serif;
+    background: #000000;
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #222222;
     font-size: 20px;
-    text-transform: capitalize;
+    padding: 34px;
+    text-transform: uppercase;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
@@ -99,20 +102,17 @@ html, body {
 }
 
 .content-setting {
-    padding: 270px 0 150px 0;
+    padding: 330px 0 150px 0;
 }
 
 #home .main-banner-text {
     font-size: 70px;
     color: #3a9e41;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
     text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
-    -moz-transform: matrix( 4.16556935983373,0,0,4.16556935983372,0,0);
-    -webkit-transform: matrix( 4.16556935983373,0,0,4.16556935983372,0,0);
-    -ms-transform: matrix( 4.16556935983373,0,0,4.16556935983372,0,0);
 }
 
 #home .main-banner-desc {
@@ -122,24 +122,6 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-#home .btn-contact {
-    width: 204px;
-    height: 65px;
-    font-size: 18px;
-    line-height: 49px;
-    color: #ffffff;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-color: rgb(254, 83, 61);
-    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.btn-contact:hover {
-    color: #ffffff;
-}
 
 
 
@@ -155,26 +137,93 @@ html, body {
 
 #home .owl-theme .owl-nav {
     position: relative;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 #home .owl-carousel .owl-nav button.owl-next {
     position: absolute;
     right: 90px;
-    bottom: 310px;
+    bottom: 342px;
 }
 
 #home .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
     left: 90px;
-    bottom: 310px;
+    bottom: 342px;
 }
 
 #home .owl-theme .owl-nav [class*=owl-] {
     background: transparent;
 }
 
-#home .flaticon-last-track-left-arrow:before {
+.arrows-bg-color {
+}
+
+#home .flaticon-pointer:before {
+    content: "\f10f";
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #3a9e41;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 0;
+    font-weight: 900;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#home .flaticon-trajectory:before {
+    content: "\f10d";
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: #3a9e41;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 0;
+    font-weight: 900;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#home .flaticon-phone-receiver:before {
+    content: "\f100";
+    position: absolute;
+    height: 70px;
+    width: 62px;
+    background: #ffffff;
+    margin-left: 0;
+    color: #19600f;
+    padding: 15px;
+    font-size: 26px;
+    border: none;
+    box-shadow: -1px 6px 12px 0px #000000;
+}
+
+#home .btn-contact {
+    width: 225px;
+    height: 70px;
+    font-size: 18px;
+    line-height: 52px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    background-color: #19600f;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn-contact:hover {
+    color: #ffffff;
+}
+
+
+
+/*#home .flaticon-last-track-left-arrow:before {
     content: "\f101";
     width: 50px;
     height: 50px;
@@ -196,15 +245,399 @@ html, body {
     font-weight: 900;
     background-color: rgb(254, 83, 61);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-}
+}*/
 
 
 /*================================= 
        Abuot Section Styling
   =================================*/
+#about {
+    padding: 42px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.who-text {
+    font-size: 40px;
+    color: #3a9e41;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.who-sub-heading {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.who-desc {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about .img-border {
+    border: 3px solid #3a9e41;
+}
+
+#about .btn-position {
+    position: absolute;
+    bottom: 132px;
+    left: 35%;
+}
+/*================================= 
+        Cases Section Styling
+=================================*/
+#cases {
+    padding: 52px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case-heading-text {
+    font-size: 44px;
+    color: #3a9e41;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.75);
+}
 
 
+.case-desc {
+    font-size: 18px;
+    color: #2b312c;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
 
+.case-heading {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hover-color:hover .case-heading {
+    color: #3a9e41;
+}
+
+.padding-bottom {
+    padding-bottom: 5rem;
+}
+
+#cases .flaticon-accident:before {
+    content: "\f101";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-accident:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-product:before {
+    content: "\f102";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-product:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-dislike:before {
+    content: "\f103";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-dislike:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-debt:before {
+    content: "\f104";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-debt:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-man-cycling:before {
+    content: "\f105";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-man-cycling:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-motorcycle:before {
+    content: "\f106";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-motorcycle:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-zynga-logotype:before {
+    content: "\f107";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-zynga-logotype:before {
+    color: #3a9e41
+}
+
+#cases .flaticon-truck-accident:before {
+    content: "\f108";
+    margin-left: 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+#cases .hover-color:hover .flaticon-truck-accident:before {
+    color: #3a9e41
+}
+/*================================= 
+       Lawyer Secion Styling
+  =================================*/
+#lawyer {
+    padding: 85px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lawyer-text {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lawyer-sub-heading {
+    font-size: 30px;
+    color: #3a9e41;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lawyer-text-desc {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-text {
+    font-size: 28px;
+    color: #3a9e41;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.field-text {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-lawyer {
+    font-size: 16px;
+    color: #2b2b2b;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-bg-color {
+    background: #f4f4f4;
+}
+/*================================= 
+       Contact Section Styling
+  =================================*/
+#contact {
+    padding: 45px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-heading {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-sub-heading {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-desc {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact ::placeholder {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact .field-name {
+    width: 100%;
+    height: 67.5px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    padding: 18px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(58, 158, 65);
+    box-shadow: 7px 8.66px 10px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contact .textarea-name {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    padding: 18px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(58, 158, 65);
+    box-shadow: 7px 8.66px 10px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contact .btn-submit {
+    width: 86%;
+    height: 70px;
+    font-size: 20px;
+    line-height: 54px;
+    color: #ffffff;
+    background: #000000;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 8.66px 10px 0px rgba(0, 0, 0, 0.5),inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-submit:hover {
+    color: #ffffff;
+    background: #000000;
+}
+
+#contact .flaticon-gavel:before {
+    content: "\f109";
+    position: absolute;
+    height: 70px;
+    width: 62px;
+    background: #ffffff;
+    margin-left: 0;
+    color: #19600f;
+    padding: 10px;
+    font-size: 33px;
+    box-shadow: 1px 6px 12px 0px #000000;
+}
+
+/*================================= 
+      Footer Section Styling
+  =================================*/
+#footer {
+    background: #000000;
+    padding: 40px 0;
+}
+
+.about-team {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer .info-text {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 25px;
+    font-style: normal;
+    margin-left: 0px;
+    color: #3a9e41;
+}
+
+.footer-heading-text {
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cases-heading-text {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#footer .date-text {
+    font-size: 14px;
+    color: #6b6b6b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#footer .time-text {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
 /*================================= 
           Read More Styling
   =================================*/
@@ -516,6 +949,14 @@ html, body {
     margin-top: 53px;
 }
 
+.mt-52 {
+    margin-top: 52px;
+}
+
+.mt-51 {
+    margin-top: 51px;
+}
+
 .mt-50 {
     margin-top: 50px;
 }
@@ -748,6 +1189,9 @@ html, body {
     padding-top: 100px;
 }
 
+.p-31 {
+    padding: 0 31px !important;
+}
 
 
 
@@ -841,6 +1285,126 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    .nav-item {
+        padding: 0px 6px 0 4px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 17px;
+        padding: 24px;
+    }
+
+    #home .main-banner-text {
+        font-size: 50px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 16px;
+    }
+
+    #home .btn-contact {
+        width: 185px;
+        height: 62px;
+        font-size: 16px;
+        line-height: 45px;
+    }
+
+    #home .flaticon-phone-receiver:before {
+        height: 62px;
+    }
+
+    .who-text {
+        font-size: 30px;
+    }
+
+    .who-sub-heading {
+        font-size: 18px;
+    }
+
+    .who-desc {
+        font-size: 15px;
+    }
+
+    #about .btn-position {
+        bottom: 93px;
+        left: 34%;
+    }
+
+    .case-heading-text {
+        font-size: 36px;
+    }
+
+    .case-desc {
+        font-size: 16px;
+    }
+
+    .lawyer-text {
+        font-size: 30px;
+    }
+
+    .lawyer-sub-heading {
+        font-size: 20px;
+    }
+
+    .lawyer-text-desc {
+        font-size: 16px;
+    }
+
+    .p-31 {
+        padding: 0 11px !important;
+    }
+
+    .mt-65 {
+        margin-top: 15px;
+    }
+
+    .name-text {
+        font-size: 22px;
+    }
+
+    .field-text {
+        font-size: 18px;
+    }
+
+    .about-lawyer {
+        font-size: 13px;
+    }
+
+    .contact-heading {
+        font-size: 30px;
+    }
+
+    .contact-sub-heading {
+        font-size: 20px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .footer-heading-text {
+        font-size: 22px;
+    }
+
+    .cases-heading-text {
+        font-size: 14px;
+    }
+
+    #footer .time-text {
+        font-size: 21px;
+    }
+
+    #footer .date-text {
+        font-size: 13px;
+    }
+
+    .about-team {
+        font-size: 19px;
+    }
+
+    #footer .info-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -850,18 +1414,209 @@ button:focus {
 }
 
 @media screen and (max-width: 768px) {
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 25px;
+        bottom: 316px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 25px;
+        bottom: 316px;
+    }
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    #home .btn-contact {
+        width: 155px;
+    }
+
+    #home .flaticon-trajectory:before {
+        font-size: 22px;
+    }
+
+    #home .flaticon-pointer:before {
+        font-size: 22px;
+    }
+
+    #about .btn-position {
+        bottom: 183px;
+        left: 38%;
+    }
+
+    .who-sub-heading {
+        font-size: 20px;
+    }
+
+    .who-desc {
+        font-size: 16px;
+    }
+
+    .case-heading-text {
+        font-size: 26px;
+    }
+
+    .case-desc {
+        font-size: 15px;
+    }
+
+    .case-heading {
+        font-size: 14px;
+    }
+
+    #cases .flaticon-accident:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-product:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-dislike:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-debt:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-man-cycling:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-motorcycle:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-zynga-logotype:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-truck-accident:before {
+        font-size: 56px;
+    }
+
+    #lawyer {
+        padding: 50px 0;
+    }
+
+    .lawyer-text-desc {
+        font-size: 14px;
+    }
+
+    .name-text {
+        font-size: 25px;
+    }
+
+    .field-text {
+        font-size: 20px;
+    }
+
+    .about-lawyer {
+        font-size: 16px;
+    }
+
+    .contact-heading {
+        font-size: 26px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
+
+    #contact .btn-submit {
+        font-size: 17px;
+    }
+
+    .about-team {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 415px) {
+    .navbar {
+        padding: 13px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 38%;
+        bottom: 50px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 38%;
+        bottom: 50px;
+    }
+
+    .media-mr-78 {
+        margin-right: 78px;
+    }
+
+    .media-btn-width {
+        width: 50%;
+    }
+
+    #about .btn-position {
+        bottom: 112px;
+        left: 40%;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .cases-heading-text {
+        font-size: 16px;
+    }
+
+    #contact .btn-submit {
+        width: 84%;
+    }
 }
 
 @media screen and (max-width: 411px) {
 }
 
 @media screen and (max-width: 376px) {
+    #contact .btn-submit {
+        width: 82%;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 36%;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 34%;
+    }
+
+    #about .btn-position {
+        bottom: 98px;
+        left: 39%;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    #contact .btn-submit {
+        width: 81%;
+    }
+
+    #about .btn-position {
+        bottom: 87px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 36%;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 34%;
+    }
 }
 
 
@@ -876,12 +1631,52 @@ button:focus {
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
+    #about .btn-position {
+        bottom: 155px;
+        left: 40%;
+    }
+
+    .case-heading-text {
+        font-size: 27px;
+    }
+
+    .case-heading {
+        font-size: 15px;
+    }
+
+    .about-lawyer {
+        font-size: 17px;
+    }
+
+    .name-text {
+        font-size: 25px;
+    }
+
+    .field-text {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    #about .btn-position {
+        bottom: 112px;
+        left: 39%;
+    }
+
+    #home .main-banner-text {
+        font-size: 40px;
+    }
+
+    .media-mr-78 {
+        margin-right: 50px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {

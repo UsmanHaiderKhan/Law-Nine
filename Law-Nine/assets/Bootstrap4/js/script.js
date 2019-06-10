@@ -126,7 +126,7 @@ $(function () {
         nav: true,
         slideBy: 1,
         item: 1,
-        navText: ["<i class='flaticon-last-track-left-arrow'></i>", "<i class='flaticon-right-arrow'> </i>"],
+        navText: ["<i class=' flaticon-pointer'></i>", "<i class='flaticon-trajectory'> </i>"],
         responsiveClass: true,
         responsive: {
             0: {
@@ -169,10 +169,10 @@ $(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 100) {
-            $("nav").addClass("nav-bg-color p-3");
+            $("nav").addClass("");
 
         } else {
-            $("nav").removeClass("nav-bg-color p-3");
+            $("nav").removeClass("");
 
 
         }

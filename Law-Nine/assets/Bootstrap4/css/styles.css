@@ -144,12 +144,14 @@ html, body {
     position: absolute;
     right: 90px;
     bottom: 342px;
+    box-shadow: -4px 5px 26px 2px #000
 }
 
 #home .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
     left: 90px;
     bottom: 342px;
+    box-shadow: -4px 5px 26px 2px #000
 }
 
 #home .owl-theme .owl-nav [class*=owl-] {
@@ -194,7 +196,7 @@ html, body {
     width: 62px;
     background: #ffffff;
     margin-left: 0;
-    color: #19600f;
+    color: #3a9e41;
     padding: 15px;
     font-size: 26px;
     border: none;
@@ -202,7 +204,7 @@ html, body {
 }
 
 #home .btn-contact {
-    width: 225px;
+    width: 190px;
     height: 70px;
     font-size: 18px;
     line-height: 52px;
@@ -210,7 +212,7 @@ html, body {
     text-transform: uppercase;
     border-radius: 0px;
     border: 2px solid #ffffff;
-    background-color: #19600f;
+    background-color: #3a9e41;
     box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -471,6 +473,14 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+.hover-div:hover {
+    background: #3a9e41;
+}
+
+    .hover-div:hover .name-text, .hover-div:hover .field-text, .hover-div:hover .about-lawyer {
+        color: #ffffff;
+    }
+
 .section-bg-color {
     background: #f4f4f4;
 }
@@ -572,7 +582,7 @@ html, body {
     width: 62px;
     background: #ffffff;
     margin-left: 0;
-    color: #19600f;
+    color: #3a9e41;
     padding: 10px;
     font-size: 33px;
     box-shadow: 1px 6px 12px 0px #000000;
@@ -1408,6 +1418,128 @@ button:focus {
 }
 
 @media screen and (max-width: 900px) {
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 25px;
+        bottom: 316px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 25px;
+        bottom: 316px;
+    }
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    #home .btn-contact {
+        width: 155px;
+    }
+
+    #home .flaticon-trajectory:before {
+        font-size: 22px;
+    }
+
+    #home .flaticon-pointer:before {
+        font-size: 22px;
+    }
+
+    #about .btn-position {
+        bottom: 183px;
+        left: 38%;
+    }
+
+    .who-sub-heading {
+        font-size: 20px;
+    }
+
+    .who-desc {
+        font-size: 16px;
+    }
+
+    .case-heading-text {
+        font-size: 26px;
+    }
+
+    .case-desc {
+        font-size: 15px;
+    }
+
+    .case-heading {
+        font-size: 14px;
+    }
+
+    #cases .flaticon-accident:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-product:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-dislike:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-debt:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-man-cycling:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-motorcycle:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-zynga-logotype:before {
+        font-size: 56px;
+    }
+
+    #cases .flaticon-truck-accident:before {
+        font-size: 56px;
+    }
+
+    #lawyer {
+        padding: 50px 0;
+    }
+
+    .lawyer-text-desc {
+        font-size: 14px;
+    }
+
+    .name-text {
+        font-size: 25px;
+    }
+
+    .field-text {
+        font-size: 20px;
+    }
+
+    .about-lawyer {
+        font-size: 16px;
+    }
+
+    .contact-heading {
+        font-size: 26px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
+
+    #contact .btn-submit {
+        font-size: 17px;
+    }
+
+    .about-team {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1625,6 +1757,17 @@ button:focus {
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
+    .mt-65 {
+        margin-top: 28px;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .field-text {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
@@ -1677,9 +1820,17 @@ button:focus {
     .media-mr-78 {
         margin-right: 50px;
     }
+
+    .padding-bottom {
+        padding-bottom: 0px !important;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
+    #about .btn-position {
+        bottom: 124px;
+        left: 36%;
+    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
